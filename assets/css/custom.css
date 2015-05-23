@@ -1,0 +1,31 @@
+html, body {
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', 'sans-serif';
+}
+
+.section {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#welcome-page {
+    background-image: url("../../assets/images/welcome.png");
+    bacgkround: rgba(0, 0, 0, 0.75);
+}
+
+#about-page {
+    background-image: url("../../assets/images/about.jpg");
+    padding: 0 0 0 6%;
+}
+
+#contact-page {
+    background-image: url("../../assets/images/contact.jpg");
+    padding: 0 0 0 6%;
+}
+
+.title {
+    font-size: 6em;
+}
