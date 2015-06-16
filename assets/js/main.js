@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $("#fullpage").fullpage({
-        anchors:["welcome", "about", "other", "contact"],
+        anchors:["welcome"],
         css3: true
     });
 });

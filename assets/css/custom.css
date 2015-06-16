@@ -4,6 +4,10 @@ html, body {
     font-family: 'Open Sans', 'sans-serif';
 }
 
+a {
+  color: #2d2d2d;
+}
+
 .section {
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -13,17 +17,6 @@ html, body {
 
 #welcome-page {
     background-image: url("../../assets/images/welcome.PNG");
-    bacgkround: rgba(0, 0, 0, 0.75);
-}
-
-#about-page {
-    background-image: url("../../assets/images/about.JPG");
-    padding: 0 0 0 6%;
-}
-
-#contact-page {
-    background-image: url("../../assets/images/contact.JPG");
-    padding: 0 0 0 6%;
 }
 
 .title {
