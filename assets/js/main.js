@@ -3,4 +3,5 @@ $(document).ready(function() {
         anchors:["welcome"],
         css3: true
     });
+    jQuery("#title-welcome-page").fitText();
 });
