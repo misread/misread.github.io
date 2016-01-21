@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $("#fullpage").fullpage({
-        anchors:["welcome"],
-        css3: true
+      anchors:["welcome", "photos", "social", "snapchat"],
+      css3: true,
     });
-    jQuery("#title-welcome-page").fitText();
+    jQuery("#title").fitText();
 });
