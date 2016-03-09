@@ -5,6 +5,8 @@ html {
     
   position: relative;
   min-height: 100%;
+  
+  overflow: auto;
 }
 
 body {
@@ -28,6 +30,9 @@ a {
   color: #f2f2f2;
   font-family: 'Raleway', 'sans-serif';
   text-align: right;
+  
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 footer {
